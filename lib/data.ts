@@ -70,6 +70,14 @@ export const aboutCards = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer",
+    location: "REMOVEQ TECHNOLOGY PRIVATE LIMITED",
+    description:
+      "I collaborated on web applications using Next.js, Prisma, and PostgreSQL, contributing to both frontend and backend development. I designed and implemented responsive UI components using ShadCN, Tailwind CSS, and Framer Motion, creating dynamic and static landing pages, including homepages and dashboards. Additionally, I contributed to building RESTful APIs to efficiently manage data and services. Actively participating in team discussions, code reviews, and Agile workflows, I helped ensure the quality and timely delivery of features. ",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct, 2024 - current",
+  },
+  {
     title: "Web Development Course",
     location: "Programming Hero",
     description:
@@ -92,13 +100,13 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019 - present",
   },
-  {
-    title: "Youtube - Online Course",
-    location: "Online",
-    description: "",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  // {
+  //   title: "Youtube - Online Course",
+  //   location: "Online",
+  //   description: "",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 export const fullStackProjectData = [
@@ -374,7 +382,7 @@ export const contactCards = [
   {
     icon: React.createElement(FaSquareWhatsapp),
     title: "Whatsapp",
-    describe: "+8801989969238",
+    describe: "+8801726740854",
   },
   {
     icon: React.createElement(FaDiscord),
