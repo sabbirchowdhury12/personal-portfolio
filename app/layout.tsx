@@ -25,10 +25,7 @@ export default function RootLayout({
          <head>
       
      
-        <script
-          src="https://tigsaw.com/api/delivery/5EDJ6SZH/common"
-          async
-        ></script>
+       <script src="https://tigsaw.com/api/delivery/5EDJ6SZH/common"></script>
       
       </Head>
       </head>
