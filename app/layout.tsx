@@ -22,24 +22,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-  <head>
+<head>
+  <Script id="tigsaw-loader" strategy="beforeInteractive">
+    {`
+      (function(t,i,g,s,a,w){
+        i=t.currentScript.getAttribute("tigsaw-id");
+        (w||window).tigsawContainerId=i;
+        g=t.createElement('script');
+        g.src='https://static.tigsaw.com/delivery/smartscript.js';
+        g.defer=true;
+        t.head.appendChild(g);
+      })(document,typeof window!=='undefined'?window:this);
+    `}
+  </Script>
+</head>
 
-<script id="tigsaw-script" tigsaw-id="LAETQP5C">
-(function(t,i,g,s,a,w){
-  i=t.currentScript.getAttribute("tigsaw-id");
-  (w||window).tigsawContainerId=i;
-  g=t.createElement('script');
-  g.src='https://static.tigsaw.com/delivery/smartscript.js';
-  g.defer=true;
-  t.head.appendChild(g);
-})(document,typeof window!=='undefined'?window:this);
-</script>
-
-
-  
-  </head>
-      
-      
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
